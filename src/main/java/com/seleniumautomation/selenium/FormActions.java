@@ -53,10 +53,10 @@ public class FormActions {
 
             // introduzir informação nos campos do formulário
             try {
-                name.sendKeys("Alexandre");
-//                wait.until(ExpectedConditions.textToBePresentInElementValue(name, "Alexandre"));
-                email.sendKeys("alexandrereis@loba.pt");
-//                wait.until(ExpectedConditions.textToBePresentInElement(email, "@loba.pt"));
+                name.sendKeys("Example");
+//                wait.until(ExpectedConditions.textToBePresentInElementValue(name, "example"));
+                email.sendKeys("test@example.com");
+//                wait.until(ExpectedConditions.textToBePresentInElement(email, "@example.pt"));
                 subject.sendKeys("Test Email");
 //                wait.until(ExpectedConditions.textToBePresentInElement(subject, "Test"));
                 message.sendKeys("Isto é um teste de email automatizado");
